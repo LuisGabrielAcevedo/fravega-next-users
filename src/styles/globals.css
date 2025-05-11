@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+body div {
+    height: 100%;
+}
+
+.cleanLink {
+    all: unset; 
+    cursor: pointer;
+    display: block;
+} 
+
+.primaryLink {
+    color: #6366f1;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.primaryLink:hover, .primaryLink:active  {
+    color: #4f46e5;
+}

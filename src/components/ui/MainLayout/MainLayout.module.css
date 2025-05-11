@@ -1,0 +1,17 @@
+.mainLayoutContainer {
+    height: 100%;
+}
+
+.mainLayoutHeader {
+    height: 64px;
+}
+
+.mainLayoutSubHeader {
+    height: 56px;
+}
+
+.mainLayoutSection {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}

@@ -1,0 +1,39 @@
+.stack {
+  display: flex;
+}
+
+.directionRow { flex-direction: row; }
+.directionColumn { flex-direction: column; }
+.directionRowReverse { flex-direction: row-reverse; }
+.directionColumnReverse { flex-direction: column-reverse; }
+
+.justifyFlexStart { justify-content: flex-start; }
+.justifyFlexEnd { justify-content: flex-end; }
+.justifyCenter { justify-content: center; }
+.justifySpaceBetween { justify-content: space-between; }
+
+.alignFlexStart { align-items: flex-start; }
+.alignFlexEnd { align-items: flex-end; }
+.alignCenter { align-items: center; }
+.alignStretch { align-items: stretch; }
+
+.wrapNowrap { flex-wrap: nowrap; }
+.wrapWrap { flex-wrap: wrap; }
+.wrapWrapReverse { flex-wrap: wrap-reverse; }
+
+.gap0 { gap: 0px; }
+.gap2 { gap: 2px; }
+.gap4 { gap: 4px; }
+.gap8 { gap: 8px; }
+.gap12 { gap: 12px; }
+.gap16 { gap: 16px; }
+.gap20 { gap: 20px; }
+.gap24 { gap: 24px; }
+.gap32 { gap: 32px; }
+.gap40 { gap: 40px; }
+
+.stretch { height: 100%; }
+.fitContent { flex: 0 0 fit-content; }
+.fitSpace { flex: 1 1 auto; }
+.minWidth0 { min-width: 0; }
+.minHeight0 { min-height: 0; }

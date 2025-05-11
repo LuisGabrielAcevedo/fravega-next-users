@@ -1,0 +1,27 @@
+.divider {
+  width: 100%;
+}
+
+.divider-horizontal {
+  width: 100%;
+  height: auto;
+}
+
+.divider-vertical {
+  height: 100%;
+  width: auto;
+}
+
+.dividerHorizontalBorderNone {height: 0;}
+.dividerHorizontalBorderXs {height: 0.5px;}
+.dividerHorizontalBorderSm {height: 1px;}
+.dividerHorizontalBorderMd {height: 2px;}
+.dividerHorizontalBorderLg {height: 4px;}
+.dividerHorizontalBorderXl {height: 8px;}
+
+.dividerVerticalBorderNone {width: 0;}
+.dividerVerticalBorderXs {width: 0.5px;}
+.dividerVerticalBorderSm {width: 1px;}
+.dividerVerticalBorderMd {width: 2px;}
+.dividerVerticalBorderLg {width: 4px;}
+.dividerVerticalBorderXl {width: 8px;}

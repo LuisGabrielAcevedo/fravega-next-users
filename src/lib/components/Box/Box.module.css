@@ -1,0 +1,64 @@
+.box { box-sizing: border-box; }
+
+.border { border-style: solid; }
+
+.relative { position: relative; }
+
+.paddingNone  { padding: 0; }
+.paddingXs    { padding: 4px; }
+.paddingSm    { padding: 8px; }
+.paddingMd    { padding: 16px; }
+.paddingLg    { padding: 24px; }
+.paddingXl    { padding: 32px; }
+.padding2xl   { padding: 40px; }
+.padding3xl   { padding: 48px; }
+
+.paddingXNone { padding-left: 0; padding-right: 0; }
+.paddingXXs   { padding-left: 4px; padding-right: 4px; }
+.paddingXSm   { padding-left: 8px; padding-right: 8px; }
+.paddingXMd   { padding-left: 16px; padding-right: 16px; }
+.paddingXLg   { padding-left: 24px; padding-right: 24px; }
+.paddingXXl   { padding-left: 32px; padding-right: 32px; }
+.paddingX2xl  { padding-left: 40px; padding-right: 40px; }
+.paddingX3xl  { padding-left: 48px; padding-right: 48px; }
+
+.paddingYNone { padding-top: 0; padding-bottom: 0; }
+.paddingYXs   { padding-top: 4px; padding-bottom: 4px; }
+.paddingYSm   { padding-top: 8px; padding-bottom: 8px; }
+.paddingYMd   { padding-top: 16px; padding-bottom: 16px; }
+.paddingYLg   { padding-top: 24px; padding-bottom: 24px; }
+.paddingYXl   { padding-top: 32px; padding-bottom: 32px; }
+.paddingY2xl  { padding-top: 40px; padding-bottom: 40px; }
+.paddingY3xl  { padding-top: 48px; padding-bottom: 48px; }
+
+.borderNone { border-width: 0; }
+.borderXs   { border-width: 0.5px; }
+.borderSm   { border-width: 1px; }
+.borderMd   { border-width: 2px; }
+.borderLg   { border-width: 4px; }
+.borderXl   { border-width: 8px; }
+
+.radiusNone  { border-radius: 0; }
+.radiusXs    { border-radius: 2px; }
+.radiusSm    { border-radius: 4px; }
+.radiusMd    { border-radius: 8px; }
+.radiusLg    { border-radius: 16px; }
+.radiusXl    { border-radius: 24px; }
+.radius2xl   { border-radius: 32px; }
+.radiusRound { border-radius: 50%; }
+
+.shadowNone   { box-shadow: none; }
+.shadowXs     { box-shadow: 0 1px 1px rgba(0, 0, 0, 0.025); }
+.shadowSm     { box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); }
+.shadowMd     { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+.shadowLg     { box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2); }
+.shadowXl     { box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25); }
+.shadow2xl    { box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3); }
+.shadowInner  { box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06); }
+
+.clickable { cursor: pointer; }
+.stretch { height: 100%; }
+.fitContent { flex: 0 0 fit-content; }
+.fitSpace { flex: 1 1 auto; }
+.minWidth0 { min-width: 0; }
+.minHeight0 { min-height: 0; }

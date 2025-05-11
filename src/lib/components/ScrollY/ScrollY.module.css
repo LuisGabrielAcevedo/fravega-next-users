@@ -1,0 +1,11 @@
+.scrollY {
+  height: 100%;
+}
+
+.autoScroll {
+  overflow-y: auto;
+}
+
+.overlayScroll {
+  overflow-y: overlay;
+}

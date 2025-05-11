@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+  .userDetailsContainer {
+    flex-direction: row;
+  }
+
+  .userDetailsLeftSection {
+    width: 400px;
+  }
+
+  .userDetailsRightSection {
+    flex: 1;
+  }
+}
